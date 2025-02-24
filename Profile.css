@@ -102,7 +102,7 @@ body {
     border-radius: 15px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 350px;
+    width: 50%;
     max-width: 100%;
 }
 
@@ -137,6 +137,20 @@ body {
 .input-group textarea {
     resize: vertical;
     height: 80px;
+}
+
+.height-weight-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.height-weight-container .input-group {
+    flex: 1;
+}
+
+.input-group input {
+    width: 100%;
 }
 
 /* Save Button */
